@@ -32,3 +32,8 @@ systems. extracting the `cultris2.jar` file from a desired package,
 one can simply pair that with native libraries (`libbass` and `lwjgl`)
 and an *old* version of java (1.6) to enable running cultris2 on
 catalina.
+
+## contributors
+
+* [zDEFz](https://github.com/zDEFz)
+* [chinatsu](https://github.com/chinatsu)
