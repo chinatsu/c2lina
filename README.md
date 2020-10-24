@@ -6,7 +6,8 @@ a collection of scripts to get cultris 2 running on catalina
 
 1. download one of the [custom versions of cultris 2 by DEF](http://gewaltig.net/Forums/Thread.aspx?pageid=1&t=996~1)
 2. run `./1_setup_java.sh`
-2. run `./2_setup_cultris.sh "$HOME/Downloads/unblurred 60Hz.rar"`, switch out unblurred 60Hz.rar with the filename of the version you downloaded
+2. run `./2_setup_cultris.sh "$HOME/Downloads/unblurred 60Hz.rar"`, switch out unblurred 60Hz.rar with the filename of the version you downloaded. 
+    * if this file is somewhere else and you're unsure how to point to it from the terminal, you can type `./2_setup_cultris.sh ` (with a space at the end) and drag the file from finder into the terminal where you typed this and run the resulting command.
 3. run `./run.sh`
 
 ## why?
@@ -20,7 +21,7 @@ get such a setup.
 
 in order to instill some kind of trust around what we're doing here,
 the scripts are open source with comments to explain each relevant line
-of code. binaries (and libraries) are downloaded from trusted sources,
+of code. binaries and libraries are downloaded from trusted sources,
 and are not present by themselves in this repository.
 
 ## how?
