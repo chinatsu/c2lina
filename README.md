@@ -4,11 +4,12 @@ a collection of scripts to get cultris 2 running on catalina
 
 ## installation
 
-1. download one of the [custom versions of cultris 2 by DEF](http://gewaltig.net/Forums/Thread.aspx?pageid=1&t=996~1)
-2. run `./1_setup_java.sh`
-2. run `./2_setup_cultris.sh "$HOME/Downloads/unblurred 60Hz.rar"`, switch out unblurred 60Hz.rar with the filename of the version you downloaded. 
+1. run `./1_setup_java.sh`
+2. (optional) download one of the [custom versions of cultris 2 by DEF](http://gewaltig.net/Forums/Thread.aspx?pageid=1&t=996~1)
+3. run `./2_setup_cultris.sh "$HOME/Downloads/unblurred 60Hz.rar"`, switch out unblurred 60Hz.rar with the filename of the version you downloaded. 
     * if this file is somewhere else and you're unsure how to point to it from the terminal, you can type `./2_setup_cultris.sh ` (with a space at the end) and drag the file from finder into the terminal where you typed this and run the resulting command.
-3. run `./run.sh`
+    * if you want to use the official client, you can simply run `./2_setup_cultris.sh` and answer `y` to the question that is asked once you run it.
+4. execute `./run.sh`
 
 ## why?
 
@@ -27,7 +28,7 @@ and are not present by themselves in this repository.
 ## how?
 
 [DEF's patches](http://gewaltig.net/Forums/Thread.aspx?pageid=1&t=996~1)
-provide a starting point, though these are built explicitly for 32-bit
+provide good a starting point, though these are built explicitly for 32-bit
 systems. extracting the `cultris2.jar` file from a desired package,
 one can simply pair that with native libraries (`libbass` and `lwjgl`)
 and an *old* version of java (1.6) to enable running cultris2 on
