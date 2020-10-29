@@ -1,2 +1,4 @@
 libs/
 *.jar
+errlog.txt
+.DS_Store
