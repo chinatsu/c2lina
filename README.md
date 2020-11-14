@@ -1,6 +1,6 @@
 # c2lina
 
-a collection of scripts to get cultris 2 running on catalina
+a collection of scripts to get cultris 2 running on catalina (and big sur)
 
 ## installation
 
