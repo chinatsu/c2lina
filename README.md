@@ -34,6 +34,11 @@ one can simply pair that with native libraries (`libbass` and `lwjgl`)
 and an *old* version of java (1.6) to enable running cultris2 on
 catalina.
 
+## known issues
+
+* i updated and i get an error like `/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bin/java: No such file or directory`
+    * run `./1_setup_java.sh` again to reinstall java and try to run the game afterwards (step 1 and step 4 in [installation](#installation))
+
 ## contributors
 
 * [zDEFz](https://github.com/zDEFz)
