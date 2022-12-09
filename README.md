@@ -1,5 +1,7 @@
 # c2lina
 
+**unmaintained note:** i no longer use a mac. i'm unable to continue ensuring that cultris 2 runs on newer versions of macOS. feel free to fork and fix if you run into issues :)
+
 a collection of scripts to get cultris 2 running on catalina (and big sur)
 
 ## installation
